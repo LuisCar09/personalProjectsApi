@@ -1,0 +1,31 @@
+{
+  "name": "personalprojectsapi",
+  "version": "1.0.0",
+  "description": "Api to save owner projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisCar09/personalProjectsApi.git"
+  },
+  "keywords": [
+    "[node",
+    "javascript",
+    "express",
+    "axios",
+    "mongoose]"
+  ],
+  "author": "Luis Carlos Bravo <luiscbravo94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisCar09/personalProjectsApi/issues"
+  },
+  "homepage": "https://github.com/LuisCar09/personalProjectsApi#readme",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
