@@ -1,7 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv')
 const cors = require('cors')
-
+const dbConnection = require('./src/config/db')
 dotenv.config()
 const app = express()
 const PORT = process.env.PORT ?? 3000
@@ -24,3 +24,4 @@ app.listen(PORT,() => {
     console.log(`Server listening on http://localhost:${PORT}`);
     
 })
+dbConnection()
